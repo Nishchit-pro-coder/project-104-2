@@ -1,0 +1,47 @@
+html, body
+{
+    font-family:'Josefin Slab',serif !important;
+    color:black !important;
+}   
+
+button{
+    background-color:#ECE5DD;
+    width:170px;
+    height:40px;
+    margin-top:20px;
+    font-size:25px;
+    font-family:'Josefin Slab',serif;
+    border-radius:50px;
+    box-shadow: none;
+}
+
+button:hover{
+    background-color:#c5b5a2;
+    cursor:pointer;
+}
+
+body
+{
+    color: white;
+    background: lightblue;
+    font-family:'Josefin Slab',serif !important;
+    color:black !important;
+}
+
+.heading
+{
+    width: 80%;
+    font-size: 22px;
+}
+
+#camera
+{
+    border: 2px dashed black;
+    width:350;
+    height:300;
+}
+
+.name_of_objects, #result_object_name   , #result_object_accuracy
+{
+    color: yellow;
+}
